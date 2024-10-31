@@ -13,6 +13,14 @@ Ce projet est un simple scanner de ports TCP et UDP en Python. Il permet de vér
 - git clone https://learn.zone01dakar.sn/git/mouhameddiouf/active.git
 
 ## Utilisation:
+### HELP:
+- Exécuter la commande ```python3 tinyscanner.py help```
+### TCP:
+- Exécuter le programme ```tcp_server.py``` avec le port de votre choix
+- puis éxécuter cette commande ```python3 tinyscanner.py -t 127.0.0.1 -p port```
+### UDP:
+- Exécuter le programme ```udp_server.py``` avec le port de votre choix
+- puis éxécuter cette commande ```python3 tinyscanner.py -u 127.0.0.1 -p port```
 
 ## Développeur:
 - NOM Prénom: DIOUF Mouhamed
